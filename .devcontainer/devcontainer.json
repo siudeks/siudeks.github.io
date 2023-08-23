@@ -40,8 +40,8 @@
 
 	"mounts": [
 		"type=bind,source=${localWorkspaceFolder},target=/work",
-		"type=bind,source=/home/${localEnv:USER}/.ssh,target=/root/.ssh,readonly"
-	]
+		"type=bind,source=/home/${localEnv:USER}/.ssh,target=/home/node/.ssh,readonly"
+	],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "uname -a",
