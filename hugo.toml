@@ -2,7 +2,7 @@
 baseURL = "http://localhost"
 # baseURL = 'https://siudeks.github.io/'
 languageCode = 'pl-pl'
-title = 'My New Hugo Site'
+title = 'Slawomir Siudek. Software development'
 
 theme = "hugo-geekdoc"
 
@@ -27,3 +27,8 @@ enableRobotsTXT = true
 
 [taxonomies]
    tag = "tags"
+
+[minify]
+  # GeekDocs: Minify HTML results in spacing issues
+  # more: https://geekdocs.de/usage/getting-started/#minify-html-results-in-spacing-issues
+  disableHTML = true
