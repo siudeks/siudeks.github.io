@@ -1,5 +1,6 @@
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Pages
+# based on: https://github.com/actions/starter-workflows/blob/main/pages/hugo.yml
+name: Deploy Hugo site to siudeks.github.io
 
 on:
   # Runs on pushes targeting the default branch
@@ -31,7 +32,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.114.0
+      HUGO_VERSION: 0.117.0
     steps:
       - name: Install Hugo CLI
         run: |
