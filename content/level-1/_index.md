@@ -1,7 +1,6 @@
 ---
 title: Various technical notes
 geekdocNav: true
-geekdocAlign: center
 geekdocAnchor: true
 ---
 
