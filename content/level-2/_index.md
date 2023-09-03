@@ -55,7 +55,7 @@ Worth to know:
   - Contract over implementation
     - Class Invariants ([Java](https://docs.oracle.com/cd/E19683-01/806-7930/assert-13/index.html), [.Net](https://learn.microsoft.com/en-us/dotnet/framework/debug-trace-profile/code-contracts?redirectedfrom=MSDN))
     - [Design by contract](https://en.wikipedia.org/wiki/Design_by_contract)
-  - [design patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
+  - [design patterns](https://www.oodesign.com/)
   - [SOLID](https://pl.wikipedia.org/wiki/SOLID)
   - ARM (Automatic Resource Management)
   - ADT (Algebraic Data Type) - e.g. in [Scala 3](https://www.slideshare.net/pjschwarz/scala-3-by-example-algebraic-data-types-for-domain-driven-design-part-1)
