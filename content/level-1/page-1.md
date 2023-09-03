@@ -1,5 +1,6 @@
 ---
 title: Good simple questions / rules
+weight: 10
 geekdocNav: true
 geekdocAnchor: true
 ---
