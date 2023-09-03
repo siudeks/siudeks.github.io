@@ -1,4 +1,4 @@
-# dev.siudek.net
+# siudeks.github.io
 
 ## test locally
 
