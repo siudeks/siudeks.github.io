@@ -1,6 +1,6 @@
 ---
 title: Project delivers no revenue until It's in the hands of its users
-geekdocNav: false
+geekdocNav: true
 geekdocAlign: center
 geekdocAnchor: false
 ---
