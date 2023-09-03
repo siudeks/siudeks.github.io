@@ -1,5 +1,5 @@
 ---
-title: Project delivers no revenue until It's in the hands of its users
+title: Start
 geekdocNav: true
 geekdocAlign: center
 geekdocAnchor: false
@@ -24,35 +24,35 @@ I am focused on Azure cloud from architectural / software development perspectiv
 
 <--->
 
-### Light and mobile-friendly
+### TBD
 
-The theme is powered by less than 1 MB and looks impressive on mobile devices as well as on a regular Desktop.
+TBD
 
 <--->
 
-### Easy customization
+### TBD
 
-The look and feel can be easily customized by CSS custom properties (variables), features can be adjusted by Hugo parameters.
+TBD
 
 {{< /columns >}}
 
 
 {{< columns >}}
 
-### Zero initial configuration
+### TBD
 
-Getting started in minutes. The theme is shipped with a default configuration and works out of the box.
-
-<--->
-
-### Handy shortcodes
-
-We included some (hopefully) useful custom shortcodes so you don't have to and can focus on writing amazing docs.
+TBD
 
 <--->
 
-### Dark mode
+### TBD
 
-Powerful dark mode that detects your system preferences or can be controlled by a toggle switch.
+TBD
+
+<--->
+
+### TBD
+
+TBD
 
 {{< /columns >}}
