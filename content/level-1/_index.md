@@ -20,16 +20,24 @@ My favorite links and notes
 - [Law od Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter)
 - [MoSCoW classification](https://en.wikipedia.org/wiki/MoSCoW_method)
 
+## Free comprehensive books:
 
-My recommendations in 2019
+  - [InfoQ minibooks](https://www.infoq.com/minibooks/)
+  - [Programming Notes for Professionals books](https://goalkicker.com/)
+
+## Learning paths / courses
+
+- [Developer Roadmaps](https://roadmap.sh/) as learning path
+
+
+### My recommendations in 2019
 
 - How to group DDD topics [Awesome DDD](https://github.com/heynickc/awesome-ddd)
 - How to organize announcements based on GitHub - based on [dotnet](https://github.com/dotnet/announcements)
 - Hewitt, Meijer and Szyperski: [The Actor Model (everything you wanted to know...)](https://www.youtube.com/watch?v=7erJ1DV_Tlo)
 
-My recommendations in 2018
+### My recommendations in 2018
 
-- InfoQ [mini books](https://www.infoq.com/minibooks/) I like InfoQ, and this place seems to be as a sea full of fish
 - [Data Consistency in Microservice Using Sagas](https://www.infoq.com/presentations/saga-microservices/) by Chris Richardson (creator of [Eventuate](https://eventuate.io/)) published 2018/I
 topics saga pattern, microservices, data consistency  
 Well, he shares practical advices how to use sagas with compensation instead to use ACID transactions. It is quite close to my experience, so I would like to recommed it.
@@ -37,7 +45,7 @@ Well, he shares practical advices how to use sagas with compensation instead to 
 topics java, Spring, WebSockets, SockJS, STOMP
 Very practical example how to use (and understand) STOMP over SockJS to two way communication between JS and Java. Have you wondered how to practically use WebSockets? It is for you.
 
-My recommendations in 2017
+### My recommendations in 2017
 
 - [an Introduction to CQRS & Axon](https://www.infoq.com/presentations/cqrs-axon/?utm_source=presentations_about_axon-framework&utm_medium=link&utm_campaign=axon-framework) by Allard Buijze on Aug 31, 2014  
 topics: java, CQRS  
@@ -49,8 +57,10 @@ Quite good presentation (52 mins), first half contains live-based examples why e
 topics: BDD, DDD (what a surprise)  
 Solid explanation what is DDD and BDD, without a technical implementations but with examples. Good to share among devs, QAs and BAs.
 
-## Interesting topics  
-### Monads
+### Interesting topics  
+
+#### Monads
+
 - [Options and Try monads in Java](https://dzone.com/articles/whats-wrong-java-8-part-iv)
 - [Options and Try monads in Scala](https://www.coursera.org/lecture/progfun2/lecture-1-4-monads-98tNE)
 
