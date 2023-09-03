@@ -8,11 +8,6 @@ geekdocAnchor: true
 
 My favorite links and notes
 
-## Famous IT-related problems
-
-- Mars Climate Orbiter failure 1999
-- Therac-25 (Neptun 10P?)
-
 ## Some working laws and rules
 
 - [Conways Law](http://www.melconway.com/Home/Conways_Law.html)
@@ -24,13 +19,6 @@ My favorite links and notes
 - [Law od Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter)
 - [MoSCoW classification](https://en.wikipedia.org/wiki/MoSCoW_method)
 
-
-Good simple questions / rules
-
-- Question: "What can go wrong? Haw we could handle such cases?"
-- Question: "What is the next step?"
-- Rule: Challenge what you do not understand
-- Success is always relative to goals and priorities. Do we have goals and priorities?
 
 My recommendations in 2019
 

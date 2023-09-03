@@ -1,3 +1,8 @@
-# Page 1-2
+---
+title: Famous IT-related problems
+geekdocNav: true
+geekdocAnchor: true
+---
 
-Some content
+- Mars Climate Orbiter failure 1999
+- Therac-25 (Neptun 10P?)

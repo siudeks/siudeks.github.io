@@ -1,8 +1,11 @@
-# Coding standards
+---
+title: Good simple questions / rules
+geekdocNav: true
+geekdocAnchor: true
+---
 
-In my projects I prefer to create a simple section in root README.md file describing **coding standards**.  
-After sharing such doc, all developers are on the same page about general coding approach.  
+- Question: "What can go wrong? How we could handle such cases?"
+- Question: "What is the next step?"
+- Rule: Challenge what you do not understand
+- Success is always relative to goals and priorities. Do we have goals and priorities?
 
-```markdown
-TBD
-```
