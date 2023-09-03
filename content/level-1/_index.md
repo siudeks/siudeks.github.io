@@ -1,3 +1,10 @@
+---
+title: Various technical notes
+geekdocNav: true
+geekdocAlign: center
+geekdocAnchor: true
+---
+
 # Notes
 
 My favorite links and notes
