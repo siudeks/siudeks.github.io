@@ -1,6 +1,6 @@
 ---
-title: Dobre praktyki projektowe
-weight: 30
+title: Project management
+weight: 20
 geekdocNav: true
 geekdocAnchor: true
 ---

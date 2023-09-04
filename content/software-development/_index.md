@@ -1,6 +1,6 @@
 ---
 title: Various technical notes
-weight: 10
+weight: 30
 geekdocNav: true
 geekdocAnchor: true
 ---
