@@ -57,6 +57,13 @@ Available states for tickets are:
 - Urlop, które go zatwierdzenie spowodowałoby że nie będzie projektowej obstawy jakiejś części developmentu (front, backend, infra, testing) będzie odrzucony. W Waszym interesie jest więc wnioskować o urlopy wcześniej niż koledzy. Oczywiście jeżeli jesteś jedyną osobą w substreamie front, backend, infra czy testing urlop Twój, pomimo że "zostawisz" swój substream niebsadzony na czas urlopu, nie jest blokerem dla udzielenia urlopu
 - Niestosowanie się do powyższych reguł może (ale nie musi) skutkować odrzuceniem urlopu
 
-## Release policy:
+## Release policy
 
 - No releases on Friday
+
+## Coding standards
+
+- Green IntelliJ rule: make IntelliJ happy by solving its warnings in just edited files
+- Do not produce and expect null values in domain. Potential null values from an external world (like database, API layer) should be normalized using propert actions (e.g. null object pattern, optionals, vavr functional types like Either or, at least, as Jetbrains @Nullable annotation)
+- Prove the bulletproof of your changes by adding new test(s), updating existing tests
+- - Do not left commented out code without an explanation why it is commented. Such code should be removed by other team members.
