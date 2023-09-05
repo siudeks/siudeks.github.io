@@ -1,6 +1,6 @@
 ---
-title: Software engineering
-weight: 30
+title: Various technical notes
+weight: 40
 geekdocNav: true
 geekdocAnchor: true
 ---

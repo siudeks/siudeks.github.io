@@ -1,47 +1,62 @@
 ---
-title: Development
+title: Architecture
 weight: 10
 geekdocNav: true
 geekdocAnchor: true
 ---
 
-Java:
+## Azure
+
+Collection of promising links:
+
+- Keep watching [current Azure certificates](https://learn.microsoft.com/en-us/certifications/)
+- [Azure Shows](https://learn.microsoft.com/en-us/shows/browse?products=azure)
+- [Azure Arc jump start](https://azurearcjumpstart.io/)
+- [Microsoft Learn](https://learn.microsoft.com/en-us/training/)
+- [Azure code samples](https://learn.microsoft.com/en-us/samples/browse/?products=azure)
+- [Azure serverless community library](https://www.serverlesslibrary.net/)
+- [Azure DevOps labs](https://www.azuredevopslabs.com/)
+- [Terraform Azure](https://developer.hashicorp.com/terraform/tutorials/azure-get-started)
+- [Azure Citadel hands on & learning Azure](https://www.azurecitadel.com/)
+- [Azure architecture](https://learn.microsoft.com/en-us/azure/architecture/browse/?products=azure)
+
+## Java
 
 - [sdkman](https://sdkman.io/)
 
-React
+## React
 
 - React sandbox
 
-VS Code extensions:
+## VS Code extensions
 
 - [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
-DDD / BDD
+## DDD / BDD
 
 - [Akka actor as entities](https://doc.akka.io/docs/akka/current/typed/cluster-sharding.html#introduction)
 - [JMolecules](https://github.com/xmolecules/jmolecules)
 - [Example mapping (BDD)](https://school.cucumber.io/courses/take/bdd-with-cucumber-java/lessons/29119183-example-mapping-how)
 
-Saga pattern
+## Saga pattern
 
 - [Apache Saga](https://camel.apache.org/components/4.0.x/eips/saga-eip.html)
 - [Microprofile LRA](https://microprofile.io/specifications/microprofile-lra/)
 - [Masstransit Saga](https://masstransit.io/documentation/patterns/saga)
 - [Axon Saga](https://docs.axoniq.io/reference-guide/axon-framework/sagas)
 
-External integration APIs
+## External integration APIs
 
 - [Zapier](https://zapier.com/)
 - [Power Automate](https://make.powerautomate.com/)
 
-Document an architecture
+## Document an architecture
 
 - [Plant UML](https://plantuml.com/) with [vscode extension](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) and with [c4model extension](https://github.com/plantuml-stdlib/C4-PlantUML) and [Azure extension](https://github.com/plantuml-stdlib/Azure-PlantUML)
 - [Arch Unit](https://www.archunit.org/)
 - [Spring Modulith](https://spring.io/projects/spring-modulith)
 
-Worth to know:
+## Worth to know:
   
 - big concepts:
 
