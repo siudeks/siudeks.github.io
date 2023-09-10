@@ -19,6 +19,7 @@ Collection of promising links:
 - [Terraform Azure](https://developer.hashicorp.com/terraform/tutorials/azure-get-started)
 - [Azure Citadel hands on & learning Azure](https://www.azurecitadel.com/)
 - [Azure architecture](https://learn.microsoft.com/en-us/azure/architecture/browse/?products=azure)
+- [Awesome Azure Dev CLI](https://azure.github.io/awesome-azd/)
 
 ## Java
 

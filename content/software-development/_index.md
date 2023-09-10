@@ -5,8 +5,6 @@ geekdocNav: true
 geekdocAnchor: true
 ---
 
-# Notes
-
 My favorite links and notes
 
 ## Some working laws and rules
