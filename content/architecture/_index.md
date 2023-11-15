@@ -10,6 +10,7 @@ geekdocAnchor: true
 Collection of promising links:
 
 - Keep watching [current Azure certificates](https://learn.microsoft.com/en-us/certifications/)
+  - [Azure Solutions Architect Expert Certification Course (AZ 305)](https://www.youtube.com/watch?v=i6NzKvGUsBs)
 - [Azure Shows](https://learn.microsoft.com/en-us/shows/browse?products=azure)
 - [Azure Arc jump start](https://azurearcjumpstart.io/)
 - [Microsoft Learn](https://learn.microsoft.com/en-us/training/)
