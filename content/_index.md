@@ -12,7 +12,7 @@ geekdocAnchor: false
 
 <!-- markdownlint-restore -->
 
-Project delivers no revenue until It's in the hands of its users
+**Project delivers no revenue until It's in the hands of its users**
 
 ## Feature overview
 
