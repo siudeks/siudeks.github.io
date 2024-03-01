@@ -60,6 +60,7 @@ Solid explanation what is DDD and BDD, without a technical implementations but w
 #### Monads
 
 - [Options and Try monads in Java](https://dzone.com/articles/whats-wrong-java-8-part-iv)
+- [Monads explanation for Java dev](https://www.ppl-lang.dev/blog/introduction-to-monads-with-java/index.html)
 - [Options and Try monads in Scala](https://www.coursera.org/lecture/progfun2/lecture-1-4-monads-98tNE)
 
 ## Interesting comments found on the internet
