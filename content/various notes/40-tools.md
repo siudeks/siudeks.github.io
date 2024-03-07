@@ -14,6 +14,7 @@ geekdocAnchor: true
 - [Free dowload manager](https://www.freedownloadmanager.org/)
 - [FAR manager](https://www.farmanager.com/)
 - [Gimp](https://www.gimp.org/)
+- [OBS Studio](https://obsproject.com/) Free and open source software for video recording and live streaming.
 
 - Promising, not yet used
   - [Krita Digital Painting (free)](https://krita.org/en/)
