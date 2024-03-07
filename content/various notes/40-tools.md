@@ -19,6 +19,5 @@ geekdocAnchor: true
   - [Krita Digital Painting (free)](https://krita.org/en/)
   - [Shotcut is a free, open source, cross-platform video editor](https://www.shotcut.org/)
   - [A free video editor to cut, filter, and encode projects](https://sourceforge.net/projects/avidemux)
-  - [Video Editor VSCD](https://www.videosoftdev.com/)
   - [KDE Non-Linear Video Editor](https://kdenlive.org/en/download/)
   - [Audacity - audio editing and recording app](https://www.audacityteam.org/)
