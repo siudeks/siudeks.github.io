@@ -9,8 +9,10 @@ geekdocAnchor: true
 
 Collection of promising links:
 
-- Keep watching [current Azure certificates](https://learn.microsoft.com/en-us/certifications/)
+- Keep watching [current Azure certificates](https://learn.microsoft.com/en-us/certifications/):
   - [Azure Solutions Architect Expert Certification Course (AZ 305)](https://www.youtube.com/watch?v=i6NzKvGUsBs)
+  - [Practice Assessment for Exam AZ-104: Microsoft Azure Administrator](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-104/practice/assessment?assessment-type=practice&assessmentId=21&context=sso&source=esi)
+  - [Practice Assessment for Exam AZ-305: Designing Microsoft Azure Infrastructure Solutions](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/practice/assessment?assessment-type=practice&assessmentId=15)
 - [Azure Shows](https://learn.microsoft.com/en-us/shows/browse?products=azure)
 - [Azure Arc jump start](https://azurearcjumpstart.io/)
 - [Microsoft Learn](https://learn.microsoft.com/en-us/training/)
