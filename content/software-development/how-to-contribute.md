@@ -30,7 +30,7 @@ What makes a good bug report?
 
 Include relevant versions and logs
 
-Note: yes, “relevant” is subjective and therefore hard
+Note: yes, 'relevant' is subjective and therefore hard
 
 ## Code review
 
