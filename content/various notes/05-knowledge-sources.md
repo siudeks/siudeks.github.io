@@ -9,4 +9,4 @@ geekdocAnchor: true
 - [IT Job Market Trends](https://www.itjobswatch.co.uk/)
 - [TIOBE index](https://www.tiobe.com/tiobe-index/)
 - [DB-Engines ranking](https://db-engines.com/en/ranking)
-- [The State of Developer Ecosystem 2022](https://www.jetbrains.com/lp/devecosystem-2022/)
+- [The State of Developer Ecosystem 2023](https://www.jetbrains.com/lp/devecosystem-2023/)
