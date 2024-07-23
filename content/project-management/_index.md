@@ -19,24 +19,56 @@ geekdocAnchor: true
 
 Available states for tickets are: 
 
-- Not Started: (Owner: Product Team, meaning: poposal / draft)
-- Active Product: (Owner: Product Team, meaning: preparing content and acceptance criteria)
-- Ready for estimation: TBD
-- Estimated by Dev: TBD
-- Sprint candidates: TBD
-- Ready for QA: TBD
-- Ready for Product Acceptance,: TBD
+- NOT_STARTED: (Owner: Product Team, meaning: poposal / draft)
+- ACTIVE_PRODUCT: (Owner: Product Team, meaning: )
+- READY_FOR_ESTIMATION: TBD
+- ESTIMATED_BY_DEV: TBD
+- SPRINT_CANDIDATES: TBD
+- READY_FOR_QA: TBD
+- READY_FOR_PRODUCT_ACCEPTANCE: TBD
 - Ready for Deployment: TBD
 - Ready for UAT: TBD
 - Closed: TBD
+
+```mermaid
+stateDiagram-v2
+    [*] --> NOT_STARTED
+    NOT_STARTED --> ACTIVE_PRODUCT
+    ACTIVE_PRODUCT --> READY_FOR_ESTIMATION
+    READY_FOR_ESTIMATION --> SPRINT_CANDIDATES
+    SPRINT_CANDIDATES --> READY_FOR_QA
+    READY_FOR_QA --> READY_FOR_PRODUCT_ACCEPTANCE
+    READY_FOR_PRODUCT_ACCEPTANCE --> READY_FOR_DEPLOYMENT
+    READY_FOR_DEPLOYMENT --> READY_FOR_UAT
+    READY_FOR_UAT --> CLOSED
+    CLOSED --> [*]
+    
+
+    note right of NOT_STARTED
+      Initial state of newly create Issue.
+      Meaning: proposal / draft / stub.
+      Something not worth to look into, valuable mainly for its creator.
+    end note
+
+    note right of ACTIVE_PRODUCT
+      The ticket is owned by Product Team
+      preparing content and acceptance criteria.
+      Should be skipped by Dev Team for now
+    end note
+
+    note right of READY_FOR_PRODUCT_ACCEPTANCE
+      It is ready for product testing
+    end note
+
+```
 
 ## Sprint flow
 
 - Each sprint starts on Tuesday and it takes two weeks to finish
 - Each ticket, where developers are starting some work, has to be assigned to the person who started the work. Later on the same person will be responsible to describe testing scenarios about the ticket for S & T purposes
 - On the first day we have planning (about 4 hours)
-  - On the planing we are reviewing already prioritized list of issued in state 'Sprint candidates' and we are moving them to the current sprint as far as we have capacity to make some commitment about developing them with the end of the spring. To be clear: developing is not the same as 'deploying them' with the end of the sprint, because QA needs some more time with promoting them from 'Ready for QA' to to 'Ready for product testing' state.
-  - Each issue, when started, has automatically its owner from dev team. Such person is responsible for monitoring if all tasks (related to the issue) are done, the owner tests locally the change and - if working - changes  status to 'Ready for QA'
+  - On the planing we are reviewing already prioritized list of issued in state **SPRINT_CANDIDATES** and we are moving them to the current sprint as far as we have capacity to make some commitment about developing them with the end of the spring. To be clear: developing is not the same as 'deploying them' with the end of the sprint, because QA needs some more time with promoting them from **READY_FOR_QA** to to 'Ready for product testing' state.
+  - Each issue, when started, has automatically its owner from dev team. Such person is responsible for monitoring if all tasks (related to the issue) are done, the owner tests locally the change and - if working - changes  status to **READY_FOR_QA**
 - Day before last we have code freeze
   - Code freeze allow to stop dynamic changes in codebase and allow to polish last fixes on SIT environment by QA
   - SIT image can be promoted to higher environments (Staging, Production)
@@ -45,9 +77,9 @@ Available states for tickets are:
   - As the first activity at the morning the team prepare list of items to be presented for show & tell:
     - each team member, having assigned a ticket on the spring backlog, describes on a special Team channel what is the ticket, how to present them, and if it is major or minor change
     - the person, who will present S & T later on at the evening, collects all description, groups them to 'Major' and 'Minor' and tests scenarios on an environment (SIT or STG)
-- Every Thursday morning we (as dev team) are reviewing list of **[Ready for estimation]** items from Product Team backlog and commenting what we what is unclear and should be discussed on PBR session. We are reviewing from top to down (with assumption they are already prioritized)  If the list is longer then out time-box, we areview as much as we can commenting with questions. The meeting is called 'Pre-PBR session'.
+- Every Thursday morning we (as dev team) are reviewing list of **READY_FOR_ESTIMATION** items from Product Team backlog and commenting what we what is unclear and should be discussed on PBR session. We are reviewing from top to down (with assumption they are already prioritized)  If the list is longer then out time-box, we areview as much as we can commenting with questions. The meeting is called 'Pre-PBR session'.
 - Every Thursday evening dev team and product team are invited to PBR session, where all items are reviewed from top to down according their priority. Each bug / user story (hereafter: US) is reviewed, Product team shortly explain  background, assumptions and - the most important - Acceptance Criteria (hereafter: AC). At that point we are discussing comments form PBR and any other question which need to be clarify so later on we can estimate such bugs / USs.
-- Every Friday morning dev team is reviewing already discussed list of **[Ready for estimation]** product backlog items (hereafter: PBI) and estimating them. Each estimated item is moved from **[Ready for estimation]** to **[Estimated by dev]** so that Product Owner later on can review them ind move from **[Estimated by dev]** to **[Sprint candidates]** and apply desired priority.
+- Every Friday morning dev team is reviewing already discussed list of **READY_FOR_ESTIMATION** product backlog items (hereafter: PBI) and estimating them. Each estimated item is moved from **READY_FOR_ESTIMATION** to **ESTIMATED_BY_DEV** so that Product Owner later on can review them ind move from **ESTIMATED_BY_DEV** to **SPRINT_CANDIDATES** and apply desired priority.
 
 ## Polityka urlopowa
 
