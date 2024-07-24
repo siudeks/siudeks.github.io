@@ -12,10 +12,13 @@ hugo serve
 - update version number in devcontainer.json
 - rebuild dev container
 - check version unsing
+
   ```bash
   hugo version
   ```
+
 - test locally if is working well
+
   ```bash
   hugo server
   ```

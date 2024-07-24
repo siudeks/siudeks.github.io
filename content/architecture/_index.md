@@ -5,6 +5,15 @@ geekdocNav: true
 geekdocAnchor: true
 ---
 
+## Worth to know
+  
+- [REST](https://www.restapitutorial.com/)
+- [c4model](https://c4model.com/)
+- [enterprise integration patterns](https://www.enterpriseintegrationpatterns.com/)
+- [12 factors](https://12factor.net/pl/)
+- [semantic versioning](https://semver.org/), [calendar versioning](https://calver.org/)
+
+
 ## Azure
 
 Collection of promising links:
@@ -38,9 +47,10 @@ Collection of promising links:
 
 ## DDD / BDD
 
-- [Akka actor as entities](https://doc.akka.io/docs/akka/current/typed/cluster-sharding.html#introduction)
 - [JMolecules](https://github.com/xmolecules/jmolecules)
 - [Example mapping (BDD)](https://school.cucumber.io/courses/take/bdd-with-cucumber-java/lessons/29119183-example-mapping-how)
+- [Akka actor as entities](https://doc.akka.io/docs/akka/current/typed/cluster-sharding.html#introduction)
+- Event storming
 
 ## Saga pattern
 
@@ -56,19 +66,12 @@ Collection of promising links:
 
 ## Document an architecture
 
-- [Plant UML](https://plantuml.com/) with [vscode extension](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) and with [c4model extension](https://github.com/plantuml-stdlib/C4-PlantUML) and [Azure extension](https://github.com/plantuml-stdlib/Azure-PlantUML)
+- [Plant UML](https://plantuml.com/)
+  - with [vscode extension](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
+  - with [c4model extension](https://github.com/plantuml-stdlib/C4-PlantUML)
+  - and [Azure extension](https://github.com/plantuml-stdlib/Azure-PlantUML)
 - [Arch Unit](https://www.archunit.org/)
 - [Spring Modulith](https://spring.io/projects/spring-modulith)
-
-## Worth to know:
-  
-- big concepts:
-
-  - [c4model](https://c4model.com/)
-  - [REST](https://www.restapitutorial.com/)
-  - [enterprise integration patterns](https://www.enterpriseintegrationpatterns.com/)
-  - [12 factors](https://12factor.net/pl/)
-  - [semantic versioning](https://semver.org/), [calendar versioning](https://calver.org/)
 
 - Other concepts
   - Contract over implementation
@@ -78,3 +81,7 @@ Collection of promising links:
   - [SOLID](https://pl.wikipedia.org/wiki/SOLID)
   - ARM (Automatic Resource Management)
   - ADT (Algebraic Data Type) - e.g. in [Scala 3](https://www.slideshare.net/pjschwarz/scala-3-by-example-algebraic-data-types-for-domain-driven-design-part-1)
+
+## Valuable trainings
+
+- https://cucumber.io/school/
