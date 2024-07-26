@@ -1,0 +1,47 @@
+@startuml
+|Product Team|
+start
+:CREATED;
+note
+Kind of a draft, some idea or a bug report..
+Created mainly by the Product Team
+can be also created by anyone
+end note
+repeat
+  :ACTIVE_PRODUCT;
+note
+Active work on the issue has been started.
+Shortly: in progress.
+end note
+|Dev Team|
+  :READY_FOR_ESTIMATION;
+  note right
+  Dev team should review the story:
+  - is it understandable based on its acceptance criteria?
+  - do we know how it should be implemented?
+  - if yes, should be estimated
+  end note
+repeatwhile (can't be estimated?)
+|Product Team|
+:SPRINT_CANDIDATE;
+note: Estimated by dev, can be pulled into a sprint
+|Dev Team|
+repeat
+  :IN_DEVELOPMENT;
+  note right: dev teams is working on implementation
+  :READY_FOR_QA;
+  note right: QA is testing functionality
+repeatwhile (Some fixes required?)
+|Product Team|
+:READY_FOR_PRODUCT_ACCEPTANCE;
+note
+Final test by product team
+they may push it back to QA (not on the diagram)
+end note
+|Dev Team|
+:READY_FOR_DEPLOYMENT;
+note right: should be deployed as a part of the next release 
+:CLOSED;
+
+stop
+@enduml
