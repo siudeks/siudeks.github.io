@@ -32,33 +32,58 @@ Available states for tickets are:
 
 ```mermaid
 stateDiagram-v2
-    [*] --> NOT_STARTED
-    NOT_STARTED --> ACTIVE_PRODUCT
-    ACTIVE_PRODUCT --> READY_FOR_ESTIMATION
-    READY_FOR_ESTIMATION --> SPRINT_CANDIDATES
-    SPRINT_CANDIDATES --> READY_FOR_QA
-    READY_FOR_QA --> READY_FOR_PRODUCT_ACCEPTANCE
-    READY_FOR_PRODUCT_ACCEPTANCE --> READY_FOR_DEPLOYMENT
-    READY_FOR_DEPLOYMENT --> READY_FOR_UAT
-    READY_FOR_UAT --> CLOSED
-    CLOSED --> [*]
-    
 
-    note right of NOT_STARTED
-      Initial state of newly create Issue.
-      Meaning: proposal / draft / stub.
-      Something not worth to look into, valuable mainly for its creator.
-    end note
+    [*] --> PREPARATION
 
-    note right of ACTIVE_PRODUCT
-      The ticket is owned by Product Team
-      preparing content and acceptance criteria.
-      Should be skipped by Dev Team for now
-    end note
+    state PREPARATION {
+      [*] --> NOT_STARTED
+      NOT_STARTED --> ACTIVE_PRODUCT
+      ACTIVE_PRODUCT --> READY_FOR_ESTIMATION
+      READY_FOR_ESTIMATION --> SPRINT_CANDIDATES
+      READY_FOR_ESTIMATION --> ACTIVE_PRODUCT
+      SPRINT_CANDIDATES --> [*]
 
-    note right of READY_FOR_PRODUCT_ACCEPTANCE
-      It is ready for product testing
-    end note
+      note right of NOT_STARTED
+        Initial state of newly create Issue.
+        Meaning: proposal / draft / stub.
+        Something not worth to look into, valuable mainly for its creator.
+      end note
+
+      note right of ACTIVE_PRODUCT
+        The ticket is owned by Product Team
+        preparing content and acceptance criteria.
+        Should be skipped by Dev Team for now
+      end note
+
+      note right of READY_FOR_ESTIMATION
+        - Dev team acceps AC as understable and possible for implementation
+        - Dev team discussed implementaion approach
+        - Dev team estimated effort
+      end note
+    }
+
+    PREPARATION --> DEVELOPMENT
+
+    state DEVELOPMENT {
+      [*] --> IN_DEVELOPMENT
+      IN_DEVELOPMENT --> [*]
+    }
+
+    DEVELOPMENT --> TESTING
+
+    state TESTING {
+      [*] --> READY_FOR_QA
+      READY_FOR_QA --> READY_FOR_PRODUCT_ACCEPTANCE
+      READY_FOR_PRODUCT_ACCEPTANCE --> READY_FOR_DEPLOYMENT
+      READY_FOR_DEPLOYMENT --> READY_FOR_UAT
+      READY_FOR_UAT --> CLOSED
+      CLOSED --> [*]
+
+      note right of READY_FOR_PRODUCT_ACCEPTANCE
+        It is ready for product testing
+      end note
+
+    }
 
 ```
 
