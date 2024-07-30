@@ -22,9 +22,11 @@ end note
   - if yes, should be estimated
   end note
 repeatwhile (can't be estimated?)
-|Product Team|
 :SPRINT_CANDIDATE;
-note: Estimated by dev, can be pulled into a sprint
+note right: Estimated by dev, can be pulled into a sprint
+|Product Team|
+:IN_SPRINT;
+note: Pulled into a sprint
 |Dev Team|
 repeat
   :IN_DEVELOPMENT;
