@@ -47,7 +47,7 @@ Available states for tickets are:
   - As the first activity at the morning the team prepare list of items to be presented for show & tell:
     - each team member, having assigned a ticket on the spring backlog, describes on a special Team channel what is the ticket, how to present them, and if it is major or minor change
     - the person, who will present S & T later on at the evening, collects all description, groups them to 'Major' and 'Minor' and tests scenarios on an environment (SIT or STG)
-- Every Thursday morning we (as dev team) are reviewing list of **READY_FOR_ESTIMATION** items from Product Team backlog and commenting what we what is unclear and should be discussed on PBR session. We are reviewing from top to down (with assumption they are already prioritized)  If the list is longer then out time-box, we areview as much as we can commenting with questions. The meeting is called 'Pre-PBR session'.
+- Every Thursday morning we (as dev team) are reviewing list of **READY_FOR_ESTIMATION** items from Product Team backlog and commenting what is unclear and should be discussed on PBR session. We are reviewing from top to bottom (with assumption they are already prioritized). If the list is longer than our time-box, we review as much as we can commenting with questions. The meeting is called 'Pre-PBR session'.
 - Every Thursday evening dev team and product team are invited to PBR session, where all items are reviewed from top to down according their priority. Each bug / user story (hereafter: US) is reviewed, Product team shortly explain  background, assumptions and - the most important - Acceptance Criteria (hereafter: AC). At that point we are discussing comments form PBR and any other question which need to be clarify so later on we can estimate such bugs / USs.
 - Every Friday morning dev team is reviewing already discussed list of **READY_FOR_ESTIMATION** product backlog items (hereafter: PBI) and estimating them. Each estimated item is moved from **READY_FOR_ESTIMATION** to **ESTIMATED_BY_DEV** so that Product Owner later on can review them ind move from **ESTIMATED_BY_DEV** to **SPRINT_CANDIDATES** and apply desired priority.
 
@@ -68,4 +68,4 @@ Available states for tickets are:
 - Green IntelliJ rule: make IntelliJ happy by solving its warnings in just edited files
 - Do not produce and expect null values in domain. Potential null values from an external world (like database, API layer) should be normalized using propert actions (e.g. null object pattern, optionals, vavr functional types like Either or, at least, as Jetbrains @Nullable annotation)
 - Prove the bulletproof of your changes by adding new test(s), updating existing tests
-- - Do not left commented out code without an explanation why it is commented. Such code should be removed by other team members.
+- Do not left commented out code without an explanation why it is commented. Such code should be removed by other team members.
