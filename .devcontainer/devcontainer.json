@@ -30,7 +30,8 @@
 				"bungcip.better-toml",
 				"davidanson.vscode-markdownlint",
 				"yzhang.markdown-all-in-one",
-				"jebbs.plantuml"
+				"jebbs.plantuml",
+				"github.vscode-github-actions"
 			]
 		}
 	},
