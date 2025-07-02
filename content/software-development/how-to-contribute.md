@@ -36,4 +36,4 @@ Note: yes, 'relevant' is subjective and therefore hard
 
 - [Google way](https://google.github.io/eng-practices/review/reviewer/)
 
-- [Thoughtbot way](https://github.com/thoughtbot/guides/tree/main/code-review)
+- [Thoughtbot way](https://github.com/thoughtbot/guides/tree/main/code-review) - A pragmatic approach to code reviews focusing on the goal of knowledge sharing and making the team better.
