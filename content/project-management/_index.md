@@ -7,13 +7,13 @@ geekdocAnchor: true
 
 ## Story points
 
-*Story points* klasyfikujemy jako *skalę porządkową* (ordinal scale) gdzie możliwe są tylko operacje: *przypisanie* i *porządkowanie*. Nnie klasyfikujemy jako skalę przedziałową (interval scale) gdzie byłoby możliwe wykonywanie *operacji matematycznych* jak *dodawanie czy odejmowanie punktów*. Więcej o skalach pomiatrowych [tutaj](https://cyrkiel.info/statystyka/skale-pomiarowe)
+*Story points* are classified as an *ordinal scale* where only operations such as *assignment* and *ordering* are possible. We do not classify them as an interval scale where it would be possible to perform *mathematical operations* like *adding or subtracting points*. More about measurement scales [here](https://cyrkiel.info/statystyka/skale-pomiarowe)
 
 ## Powerful Questions
 
-- Do wymagań: Jak będzie to prezentowane przy odbiorze
-- Do cache'owania: jak i kiedy cache ma być inwalidowany?
-- Do tworzenia zasobów: jak i kiedy mają być zwalniane?
+- For requirements: How will this be presented during acceptance?
+- For caching: How and when should the cache be invalidated?
+- For resource creation: How and when should resources be released?
 
 ## User Story flow
 
