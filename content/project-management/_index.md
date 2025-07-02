@@ -51,13 +51,13 @@ Available states for tickets are:
 - Every Thursday evening dev team and product team are invited to PBR session, where all items are reviewed from top to down according their priority. Each bug / user story (hereafter: US) is reviewed, Product team shortly explain  background, assumptions and - the most important - Acceptance Criteria (hereafter: AC). At that point we are discussing comments form PBR and any other question which need to be clarify so later on we can estimate such bugs / USs.
 - Every Friday morning dev team is reviewing already discussed list of **READY_FOR_ESTIMATION** product backlog items (hereafter: PBI) and estimating them. Each estimated item is moved from **READY_FOR_ESTIMATION** to **ESTIMATED_BY_DEV** so that Product Owner later on can review them ind move from **ESTIMATED_BY_DEV** to **SPRINT_CANDIDATES** and apply desired priority.
 
-## Polityka urlopowa
+## Vacation Policy
 
-- Urlopy obejmujące dni kalendarzowe 4+ są zgłaszane na 2+ sprinty do przodu. Czyli, jeżeli dzisiaj trwa sprint n, to urlop może się zaczynać najwcześniej z datą startową sprint n+2
-- Branie w pojedynczym sprincie urlopów 2-3 dni kalendarzowe mogą być zgłaszane na następny sprint
-- Pojedynczy dzień urlop w sprincie może być zgłaszany na wg potrzeb
-- Urlop, które go zatwierdzenie spowodowałoby że nie będzie projektowej obstawy jakiejś części developmentu (front, backend, infra, testing) będzie odrzucony. W Waszym interesie jest więc wnioskować o urlopy wcześniej niż koledzy. Oczywiście jeżeli jesteś jedyną osobą w substreamie front, backend, infra czy testing urlop Twój, pomimo że "zostawisz" swój substream niebsadzony na czas urlopu, nie jest blokerem dla udzielenia urlopu
-- Niestosowanie się do powyższych reguł może (ale nie musi) skutkować odrzuceniem urlopu
+- Vacations covering 4+ calendar days must be requested at least 2+ sprints in advance. So, if sprint n is currently in progress, the vacation can start earliest at the beginning of sprint n+2
+- Taking 2-3 calendar days of vacation in a single sprint can be requested for the next sprint
+- A single day of vacation in a sprint can be requested as needed
+- Vacation requests that would result in no project coverage for a certain part of development (front, backend, infra, testing) will be rejected. It is in your interest to request vacations earlier than your colleagues. Of course, if you are the only person in the substream front, backend, infra, or testing, your vacation, despite leaving your substream unstaffed during the vacation, is not a blocker for granting the vacation
+- Failure to comply with the above rules may (but does not necessarily) result in rejection of the vacation request
 
 ## Release policy
 
