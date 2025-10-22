@@ -16,7 +16,8 @@ My favorite links and notes
 - [BRIEF](https://cucumber.io/blog/bdd/keep-your-scenarios-brief-%281%29/)
 - [Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 - [Law od Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter)
-- [MoSCoW classification](https://en.wikipedia.org/wiki/MoSCoW_method)
+- [MoSCoW prioritization](https://en.wikipedia.org/wiki/MoSCoW_method)
+- [SWOT analysis](https://en.wikipedia.org/wiki/SWOT_analysis)
 
 ## Free comprehensive books:
 
